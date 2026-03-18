@@ -1,0 +1,13 @@
+prefix=/home/gamercial/orangepi/sysroot/usr/local/qt5opi
+exec_prefix=${prefix}
+libdir=/usr/local/qt5opi/lib
+includedir=/usr/local/qt5opi/include
+
+
+Name: Qt5 Xml
+Description: Qt Xml module
+Version: 5.15.16
+Libs: -L${libdir} -lQt5Xml 
+Cflags: -DQT_XML_LIB -I${includedir}/QtXml -I${includedir}
+Requires: Qt5Core
+

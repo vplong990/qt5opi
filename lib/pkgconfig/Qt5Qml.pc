@@ -1,0 +1,13 @@
+prefix=/home/gamercial/orangepi/sysroot/usr/local/qt5opi
+exec_prefix=${prefix}
+libdir=/usr/local/qt5opi/lib
+includedir=/usr/local/qt5opi/include
+
+
+Name: Qt5 Qml
+Description: Qt Qml module
+Version: 5.15.16
+Libs: -L${libdir} -lQt5Qml 
+Cflags: -DQT_QML_LIB -I${includedir}/QtQml -I${includedir}
+Requires: Qt5Core Qt5Network
+

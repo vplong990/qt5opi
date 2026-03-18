@@ -1,0 +1,13 @@
+prefix=/home/gamercial/orangepi/sysroot/usr/local/qt5opi
+exec_prefix=${prefix}
+libdir=/usr/local/qt5opi/lib
+includedir=/usr/local/qt5opi/include
+
+
+Name: Qt5 OpenGL
+Description: Qt OpenGL module
+Version: 5.15.16
+Libs: -L${libdir} -lQt5OpenGL 
+Cflags: -DQT_OPENGL_LIB -I${includedir}/QtOpenGL -I${includedir}
+Requires: Qt5Core Qt5Gui Qt5Widgets
+

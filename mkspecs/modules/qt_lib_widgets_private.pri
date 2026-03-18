@@ -1,0 +1,13 @@
+QT.widgets_private.VERSION = 5.15.16
+QT.widgets_private.name = QtWidgets
+QT.widgets_private.module =
+QT.widgets_private.libs = $$QT_MODULE_LIB_BASE
+QT.widgets_private.includes = $$QT_MODULE_INCLUDE_BASE/QtWidgets/5.15.16 $$QT_MODULE_INCLUDE_BASE/QtWidgets/5.15.16/QtWidgets
+QT.widgets_private.frameworks =
+QT.widgets_private.depends = core_private gui_private widgets
+QT.widgets_private.uses =
+QT.widgets_private.module_config = v2 internal_module
+QT.widgets_private.enabled_features = widgettextcontrol effects gtk3 style-fusion style-windows
+QT.widgets_private.disabled_features = style-android style-mac style-windowsvista
+QMAKE_INCDIR_GTK3 = /home/gamercial/orangepi/sysroot/usr/include/gtk-3.0 /home/gamercial/orangepi/sysroot/usr/include/at-spi2-atk/2.0 /home/gamercial/orangepi/sysroot/usr/include/at-spi-2.0 /home/gamercial/orangepi/sysroot/usr/include/dbus-1.0 /home/gamercial/orangepi/sysroot/usr/lib/arm-linux-gnueabihf/dbus-1.0/include /home/gamercial/orangepi/sysroot/usr/include/gtk-3.0 /home/gamercial/orangepi/sysroot/usr/include/gio-unix-2.0 /home/gamercial/orangepi/sysroot/usr/include/cairo /home/gamercial/orangepi/sysroot/usr/include/pango-1.0 /home/gamercial/orangepi/sysroot/usr/include/harfbuzz /home/gamercial/orangepi/sysroot/usr/include/pango-1.0 /home/gamercial/orangepi/sysroot/usr/include/fribidi /home/gamercial/orangepi/sysroot/usr/include/harfbuzz /home/gamercial/orangepi/sysroot/usr/include/atk-1.0 /home/gamercial/orangepi/sysroot/usr/include/cairo /home/gamercial/orangepi/sysroot/usr/include/pixman-1 /home/gamercial/orangepi/sysroot/usr/include/freetype2 /home/gamercial/orangepi/sysroot/usr/include/gdk-pixbuf-2.0 /home/gamercial/orangepi/sysroot/usr/include/libpng16 /home/gamercial/orangepi/sysroot/usr/include/libmount /home/gamercial/orangepi/sysroot/usr/include/blkid /home/gamercial/orangepi/sysroot/usr/include/glib-2.0 /home/gamercial/orangepi/sysroot/usr/lib/arm-linux-gnueabihf/glib-2.0/include
+QMAKE_LIBS_GTK3 = -L/home/gamercial/orangepi/sysroot/usr/lib/arm-linux-gnueabihf -lgtk-3 -lgdk-3 -lz -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0

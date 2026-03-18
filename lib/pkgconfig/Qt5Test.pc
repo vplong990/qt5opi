@@ -1,0 +1,13 @@
+prefix=/home/gamercial/orangepi/sysroot/usr/local/qt5opi
+exec_prefix=${prefix}
+libdir=/usr/local/qt5opi/lib
+includedir=/usr/local/qt5opi/include
+
+
+Name: Qt5 Test
+Description: Qt Unit Testing Library
+Version: 5.15.16
+Libs: -L${libdir} -lQt5Test 
+Cflags: -DQT_TESTLIB_LIB -I${includedir}/QtTest -I${includedir}
+Requires: Qt5Core
+

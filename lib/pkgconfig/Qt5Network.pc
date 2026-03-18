@@ -1,0 +1,13 @@
+prefix=/home/gamercial/orangepi/sysroot/usr/local/qt5opi
+exec_prefix=${prefix}
+libdir=/usr/local/qt5opi/lib
+includedir=/usr/local/qt5opi/include
+
+
+Name: Qt5 Network
+Description: Qt Network module
+Version: 5.15.16
+Libs: -L${libdir} -lQt5Network 
+Cflags: -DQT_NETWORK_LIB -I${includedir}/QtNetwork -I${includedir}
+Requires: Qt5Core
+
